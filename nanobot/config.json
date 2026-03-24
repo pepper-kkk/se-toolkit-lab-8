@@ -27,6 +27,13 @@
     "exec": {
       "enable": true,
       "timeout": 30
+    },
+    "mcp_servers": {
+      "lms": {
+        "type": "stdio",
+        "command": "python",
+        "args": ["-m", "nanobot_lms_mcp"]
+      }
     }
   }
 }
