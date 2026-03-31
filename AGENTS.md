@@ -114,3 +114,7 @@ uv run poe flutter <args>
 ```
 
 For example: `uv run poe flutter analyze lib/chat_screen.dart`
+
+## Scheduled checks
+
+The agent can create scheduled cron jobs, including periodic health checks for the backend.
