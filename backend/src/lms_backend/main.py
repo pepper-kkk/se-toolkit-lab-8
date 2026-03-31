@@ -36,6 +36,7 @@ app = FastAPI(
 )
 
 
+# unexpected backend errors should be reported as 500 responses
 @app.exception_handler(Exception)
 async def unhandled_exception_handler(request: Request, exc: Exception):
     """Return error details in the response for easier debugging."""
